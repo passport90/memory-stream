@@ -1,6 +1,11 @@
 # memory-stream
 Simple and lightweight implementation of Node.js Readable and Writable stream API where the data are stored in memory.
 
+## Installation
+```
+npm install @passport90/memory-stream
+```
+
 ## Usage Example
 ### Read stream
 This snippet would print 'This is a content.' to the screen.
