@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Implementation of Node.js stream API where the data are stored in memory.",
   "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --coverage"
