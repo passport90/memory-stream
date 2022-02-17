@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./types",
+    "declarationDir": "./dist/types",
     "outDir": "./dist"
   },
   "extends": "@tsconfig/node16/tsconfig.json",

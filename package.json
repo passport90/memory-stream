@@ -16,6 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/passport90/memory-stream.git"
   },
+  "files": [
+    "dist/**",
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
+  ],
   "keywords": [
     "memory",
     "stream"
