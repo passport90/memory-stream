@@ -1,2 +1,3 @@
 import MemoryReadStream from './MemoryReadStream';
-export { MemoryReadStream };
+import MemoryWriteStream from './MemoryWriteStream';
+export { MemoryReadStream, MemoryWriteStream };
