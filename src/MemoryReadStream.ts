@@ -16,10 +16,8 @@ export default class MemoryReadStream extends Readable {
   public _read = (size: number): void => {
     const capacity = Math.min(size, this.data.length - this.pushedByteCount)
     const readData = new Uint8Array(capacity)
-    for (let i = 0; i < capacity; ++i) {
-      readData[i] = (this.data.readUInt8(i + this.pushedByteCount))
-    }
 
+    this.data.copy(readData, 0, this.pushedByteCount, this.pushedByteCount + capacity)
     this.pushedByteCount += capacity
     this.push(readData)
 
