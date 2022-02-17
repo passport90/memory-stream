@@ -1,7 +1,7 @@
 {
   "name": "memory-stream",
   "version": "1.0.0",
-  "description": "Implementation of Node.js stream API where the data are stored in memory.",
+  "description": "Implementation of Node.js Readable and Writable stream API where the data are stored in memory.",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "engines" : { 
