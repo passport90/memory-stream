@@ -4,6 +4,10 @@
   "description": "Implementation of Node.js stream API where the data are stored in memory.",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest --coverage"
