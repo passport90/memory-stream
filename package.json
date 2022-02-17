@@ -1,0 +1,27 @@
+{
+  "name": "memory-stream",
+  "version": "1.0.0",
+  "description": "Implementation of Node.js stream API where the data are stored in memory.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passport90/memory-stream.git"
+  },
+  "keywords": [
+    "memory",
+    "stream"
+  ],
+  "author": "Marhadiasha Kusumawardhana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/passport90/memory-stream/issues"
+  },
+  "homepage": "https://github.com/passport90/memory-stream#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "typescript": "^4.5.5"
+  }
+}
