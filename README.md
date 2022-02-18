@@ -20,7 +20,7 @@ let readString = ''
 stream.on('error', console.error)
 stream.on('end', () => console.log(readString)) 
 stream.on('readable', () => {
-  let chunk: Uint8Array
+  let chunk
   while (null !== (chunk = stream.read())) {
     readString += chunk.toString()
   }
