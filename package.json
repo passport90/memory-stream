@@ -1,6 +1,6 @@
 {
   "name": "@passport90/memory-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Implementation of Node.js Readable and Writable stream API where the data are stored in memory.",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
